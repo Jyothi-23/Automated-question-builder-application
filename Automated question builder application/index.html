@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automated Question Builder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Automated Question Builder</h1>
+
+        <div id="question-container">
+            <div class="question">
+                <input type="text" class="question-input" placeholder="Enter your question here">
+                <div class="answers">
+                    <input type="text" class="answer-input" placeholder="Enter answer option 1">
+                    <input type="text" class="answer-input" placeholder="Enter answer option 2">
+                </div>
+                <button class="add-answer-btn">Add another answer</button>
+            </div>
+        </div>
+
+        <button id="add-question-btn">Add another question</button>
+        <button id="generate-questions-btn">Generate Questions</button>
+
+        <div id="output"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
